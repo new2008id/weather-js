@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div id="root">
+        <img class="loader" src="./img/loader.gif" alt="loader" />
+      </div>
+
+      <div class="popup" id="popup">
+        <form action="GET" class="form" id="form">
+          <div class="form-group">
+            <input
+              type="text"
+              value=""
+              name="city"
+              class="form-input"
+              id="text-input"
+              placeholder="London"
+              required
+            />
+            <input
+              type="submit"
+              class="form-submit"
+              id="submit-button"
+              value="OK"
+            />
+          </div>
+        </form>
+
+        <div class="popup-close" id="close">
+          <span></span>
+        </div>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
+
+<!-- <div class="container">
+  <div class="top">
+    <div class="city">
+      <div class="city-subtitle">Weather Today in</div>
+      <div class="city-title" id="city">
+        <span></span>
+      </div>
+    </div>
+    <div class="city-info">
+      <div class="top-left">
+        <img src="./img/" alt="" class="icon" />
+        <div class="description"></div>
+      </div>
+      <div class="top-right">
+        <div class="city-info__subtitle"></div>
+        <div class="city-info__title">°</div>
+      </div>
+    </div>
+  </div>
+  <div class="properties"></div>
+</div> -->
+
+<!--   -->
